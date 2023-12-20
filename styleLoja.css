@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.container-envolve {
+    color: #1c355e;
+    padding: 1rem;
+    margin: 0 1rem;
+    border-radius: 2rem;
+    display: grid;
+    
+    
+}
+.container-icons {
+    flex-direction: row;
+    display: flex;
+    border-radius: 1rem;
+    gap: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: ;
+    
+
+}
+.container-icons a {
+    font-family: Inter;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #001d4c;
+}
+
+.itens {   
+    
+    transition: .35s;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: #001d4c;
+    padding: 1rem;
+    background: none;
+    margin: 0 0rem;
+    border-radius: 12px;
+    text-align: center;
+    
+}
+
+.itens img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #a20101;
+    border-radius: 5rem;
+}
+
+.container-icons:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
+
