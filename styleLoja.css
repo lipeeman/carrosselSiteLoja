@@ -8,6 +8,7 @@
     display: grid;
     
     
+    
 }
 .container-icons {
     flex-direction: row;
@@ -16,31 +17,31 @@
     gap: 2.5rem;
     margin-left: auto;
     margin-right: auto;
-    display: ;
+    
     
 
 }
 .container-icons a {
-    font-family: Inter;
-    font-size: 1rem;
     text-decoration: none;
     color: #001d4c;
+    
 }
 
 .itens {   
     
-    transition: .35s;
+    transition: .60s;
     cursor: pointer;
     font-family: Inter;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-decoration: none;
     font-weight: 700;
-    color: #001d4c;
     padding: 1rem;
     background: none;
     margin: 0 0rem;
-    border-radius: 12px;
+    border-radius: 0px;
     text-align: center;
+
+    
     
 }
 
@@ -48,12 +49,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background: #daa520;
+    background: #061f85;
     border-radius: 5rem;
+    width: 7rem;
 }
 
 .container-icons:hover > :not(:hover){
-    opacity: .4;
+    opacity: .3;
     transform: scale(0.9);
 }
 
