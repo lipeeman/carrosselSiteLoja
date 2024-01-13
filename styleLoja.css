@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 .container-envolve {
     color: #1c355e;
@@ -59,3 +59,36 @@
     transform: scale(0.9);
 }
 
+.bg-title {
+    font-family: Inter;
+    font-weight: 200;
+    text-align: left;
+    gap: 2rem;
+    margin-left: 1rem;
+    
+}
+
+h5{
+    font-family: Rubik;
+    font-size: 15px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h5::before{
+    content: "";
+    margin-right: 20px;
+    flex-grow: 1;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+h5::after {
+    content: "";
+    margin-left: 20px;
+    flex-grow: 1;
+    border-bottom: 1px solid rgb(8, 8, 8);
+
+  }
